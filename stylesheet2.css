@@ -1,0 +1,53 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pushster', cursive;
+    color: darkolivegreen;
+}
+h2 {
+    padding-left: 50px;
+    font-family: 'Pushter', cursive;
+    font-size: 16px;
+    color: olive;
+}
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+fieldset {
+    margin: 30px;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+legend {
+    font-weight: bold;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+button:hover {
+    transition: ease-in-out;
+    background-color: brown;
+}
+button:visited {
+    background-color: yellow;
+}
+div > button {
+    display: block;
+    margin: auto;
+}
+label {
+    padding: 10px;
+    
+}
